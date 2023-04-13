@@ -1,0 +1,98 @@
+:root {
+    /* Primary */
+    --Strong-Cyan:          hsl(171, 66%, 44%);
+    --Light-Blue:           hsl(233, 100%, 69%);
+
+    /* Neutral */
+    --Dark-Grayish-Blue:    hsl(210, 10%, 33%);
+    --Grayish-Blue:         hsl(201, 11%, 66%);
+
+    --width:                hsl(0, 0%, 95%);
+
+    /* Font Wight */
+    --fw-400: 400;
+    --fw-600: 600;
+
+
+    --p1: 2rem;
+    --fs-1: ;
+    /* button */                        /* font-size: 1.1rem; */
+
+    /* header .content .header */       /* font-size: 1.95rem; */
+    /* header .content .paragraph */    /* font-size: 1rem; */
+    
+    /* main .content .header  */        /* font-size: 1.7rem; */
+    /* main .content .paragraph  */     /* font-size: 1rem; */
+
+    /* .option  .header-2  */           /* font-size: 1.5rem; */
+    /* .option .paragraph  */           /* font-size: 1rem; */
+    
+    /* .section-2 .header  */           /* font-size: 1.7rem; */
+    /* .section-2  .paragraph  */       /* font-size: 1rem; */
+
+    /* .section-3 .top-content .header  */      /* font-size: 1.7rem; */
+    /* .section-3  .top-content .paragraph */   /* font-size: 1rem; */
+
+    /* .info-icons .header  */          /* font-size: 1.5rem; */
+    /* .info-icons .paragraph  */       /* font-size: 1rem; */
+
+    /* .section-4 .content .header  */  /* font-size: 1.7rem; */
+    /* .section-4 .content .paragraph *//* font-size: 1rem; */
+
+
+    /* .icons-fti  */                   /* font-size: 1.6rem; */
+
+    /* 
+    --fs-1: 1rem;
+    --fs-2: 1.1
+    
+    
+    
+    
+    */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/* Global Style */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+img,
+svg {
+    display: block;
+    max-width: 100%;
+}
+button {
+    border: none;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 124px;
+}
+

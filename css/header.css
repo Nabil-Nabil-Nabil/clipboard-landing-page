@@ -1,0 +1,109 @@
+
+header {
+
+    /* margin: 0 1.5rem; */
+    /* background-color: red; */
+    /* padding: 1rem; */
+
+}
+
+/* Logo ------------------- */
+header .logo-div {
+    display: grid;
+    justify-content: center;
+    height: 18rem;
+
+    padding-top: 123px;
+    /* background-color: red; */
+    background-image: url(../images/bg-header-mobile.png);
+}
+@media (min-width: 376px) {
+    header .logo-div {
+        background-image: url(../images/bg-header-desktop.png);
+    }
+}
+
+/* Content ---------------- */
+header .content {
+    padding: 1.5rem var(--p1);
+
+    display: grid;
+    justify-content: center;
+    gap: 1rem;
+    
+    text-align: center;
+
+
+}
+header .content .header {
+    font-size: 1.95rem;
+    font-weight: var(--fw-600);
+    color: var(--Dark-Grayish-Blue);
+}
+header .content .paragraph {
+    font-size: 1rem;
+    font-weight: var(--fw-400);
+    line-height: 1.5rem;
+    word-spacing: .05rem;
+    color: var(--Grayish-Blue);
+    max-width: 554px;
+    justify-self: center;
+}
+@media (min-width: 1000px) {
+    header .content .header {
+        font-size: calc(1.95rem + 0.8rem);
+    }
+    header .content .paragraph {
+        font-size: calc(1rem + 4px);
+        max-width: 715px;
+    }
+}
+
+/* Inputs ------------------ */
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem var(--p1);
+}
+@media (min-width: 1000px) {
+    .inputs {
+        flex-direction: row;
+    }
+}
+button {
+    min-width: 290px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    padding: 1rem 0;
+
+    font-size: 1.1rem;
+    font-weight: var(--fw-600);
+    letter-spacing: .05rem;
+    color: var(--width);
+    
+    border-radius: 2rem;
+
+}
+button:hover {
+    opacity: .7;
+    cursor: pointer;
+}
+@media (min-width: 1000px) {
+    button {
+        min-width: 223px;
+    }
+}
+.inputs .iOS-button {
+    background-color: var(--Strong-Cyan);
+    box-shadow: 0 2px 1px 1px hsl(171, 66%, 33%),
+                0 5px 10px 0px hsl(171, 66%, 33%);
+
+}
+.inputs .Mac-button {
+    background-color: var(--Light-Blue);
+    box-shadow: 0 2px 1px 1px hsl(233, 100%, 59%),
+                0 5px 10px 0px hsl(233, 100%, 59%);
+
+}
