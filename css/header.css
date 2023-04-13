@@ -9,7 +9,6 @@ header {
 
 /* Logo ------------------- */
 header .logo-div {    
-    width: 100vw;
     display: grid;
     justify-content: center;
     height: 18rem;

@@ -5,6 +5,7 @@ main {
 .section-1 {
     display: grid;
     gap: 2.7rem;
+    justify-content: center;
 }
 
 .section-1 .bottom-content {
